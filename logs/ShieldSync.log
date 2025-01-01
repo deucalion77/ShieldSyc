@@ -1,0 +1,145 @@
+2024-02-14 12:22:54-User admin logged in
+2024-02-14 12:22:58-First Node b
+2024-02-14 12:22:58-Second Node a
+2024-02-14 12:22:59-Selecting the Firewall address for 10.10.168.10
+2024-02-14 12:22:59-Selecting the Firewall address for 192.168.100.10
+2024-02-14 12:22:59-Editing Policy ID number 118
+2024-02-14 12:23:05-Adding Rule Name Allow Web Traffic
+2024-02-14 12:23:05-Firewall Source Interface Selecting port4
+2024-02-14 12:23:05-Firewall Destination Interface port1
+2024-02-14 12:23:11-accept Firewall Rule
+2024-02-14 12:23:18-Enabling firewall Service HTTP
+2024-02-14 13:07:59-User a logged in
+2024-02-14 13:08:03-First Node a
+2024-02-14 13:08:03-Second Node a
+2024-02-14 13:08:03-Selecting the Firewall address for 192.168.100.10
+2024-02-14 13:08:03-Selecting the Firewall address for 192.168.100.10
+2024-02-14 13:08:03-Editing Policy ID number 119
+2024-02-14 13:08:05-Adding Rule Name asdfgh
+2024-02-14 13:08:05-Firewall Source Interface Selecting port1
+2024-02-14 13:08:05-Firewall Destination Interface port1
+2024-02-14 13:08:05-accept Firewall Rule
+2024-02-14 13:08:06-Enabling firewall Service ALL
+2024-02-14 13:08:58-User a logged in
+2024-02-14 13:09:00-First Node b
+2024-02-14 13:09:00-Second Node b
+2024-02-14 13:09:00-Selecting the Firewall address for 10.10.168.10
+2024-02-14 13:09:00-Selecting the Firewall address for 10.10.168.10
+2024-02-14 13:09:00-Editing Policy ID number 120
+2024-02-14 13:09:02-Adding Rule Name dfvbhnjmkhgfdx
+2024-02-14 13:09:02-Firewall Source Interface Selecting port1
+2024-02-14 13:09:02-Firewall Destination Interface port1
+2024-02-14 13:09:02-accept Firewall Rule
+2024-02-14 13:09:03-Enabling firewall Service ALL
+2024-02-14 13:09:31-User a logged in
+2024-02-14 13:09:33-First Node a
+2024-02-14 13:09:33-Second Node a
+2024-02-14 13:09:33-Selecting the Firewall address for 192.168.100.10
+2024-02-14 13:09:33-Selecting the Firewall address for 192.168.100.10
+2024-02-14 13:09:33-Editing Policy ID number 121
+2024-02-14 13:09:33-Adding Rule Name Example Rule
+2024-02-14 13:09:33-Firewall Source Interface Selecting port1
+2024-02-14 13:09:33-Firewall Destination Interface port1
+2024-02-14 13:09:33-accept Firewall Rule
+2024-02-14 13:09:34-Enabling firewall Service ALL
+2024-02-14 13:10:53-User asdfgfdsa logged in
+2024-02-14 13:10:55-First Node a
+2024-02-14 13:10:55-Second Node a
+2024-02-14 13:10:55-Selecting the Firewall address for 192.168.100.10
+2024-02-14 13:10:55-Selecting the Firewall address for 192.168.100.10
+2024-02-14 13:10:55-Editing Policy ID number 122
+2024-02-14 13:10:57-Adding Rule Name asdfghgfds
+2024-02-14 13:10:57-Firewall Source Interface Selecting port1
+2024-02-14 13:10:57-Firewall Destination Interface port1
+2024-02-14 13:10:57-accept Firewall Rule
+2024-02-14 13:10:58-Enabling firewall Service ALL
+2024-02-14 13:26:04-User admin logged in
+2024-02-14 13:26:08-First Node b
+2024-02-14 13:26:09-Second Node a
+2024-02-14 13:26:09-Selecting the Firewall address for 10.10.168.10
+2024-02-14 13:26:09-Selecting the Firewall address for 192.168.100.10
+2024-02-14 13:26:09-Editing Policy ID number 123
+2024-02-14 13:26:17-Adding Rule Name Allow ICMP
+2024-02-14 13:26:17-Firewall Source Interface Selecting port4
+2024-02-14 13:26:17-Firewall Destination Interface port1
+2024-02-14 13:26:23-accept Firewall Rule
+2024-02-14 13:26:30-Enabling firewall Service ICMP_ALL
+2024-02-14 13:27:45-User admin logged in
+2024-02-14 13:27:48-First Node b
+2024-02-14 13:27:49-Second Node a
+2024-02-14 13:27:49-Selecting the Firewall address for 10.10.168.10
+2024-02-14 13:27:49-Selecting the Firewall address for 192.168.100.10
+2024-02-14 13:27:49-Editing Policy ID number 124
+2024-02-14 13:27:55-Adding Rule Name Allow ICMP
+2024-02-14 13:27:55-Firewall Source Interface Selecting port4
+2024-02-14 13:27:55-Firewall Destination Interface port1
+2024-02-14 13:27:55-accept Firewall Rule
+2024-02-14 13:28:03-Enabling firewall Service ALL_ICMP
+2024-02-14 13:28:49-User admin logged in
+2024-02-14 13:28:56-First Node a
+2024-02-14 13:28:56-Second Node b
+2024-02-14 13:28:57-Selecting the Firewall address for 192.168.100.10
+2024-02-14 13:28:57-Selecting the Firewall address for 10.10.168.10
+2024-02-14 13:28:57-Editing Policy ID number 125
+2024-02-14 13:29:02-Adding Rule Name Allow ICMP
+2024-02-14 13:29:02-Firewall Source Interface Selecting port4
+2024-02-14 13:29:02-Firewall Destination Interface port1
+2024-02-14 13:29:04-accept Firewall Rule
+2024-02-14 13:29:11-Enabling firewall Service ALL_ICMP
+2024-02-14 13:30:50-User admin logged in
+2024-02-14 13:30:54-First Node b
+2024-02-14 13:31:00-User admin logged in
+2024-02-14 13:31:03-First Node a
+2024-02-14 13:31:04-Second Node b
+2024-02-14 13:31:04-Selecting the Firewall address for 192.168.100.10
+2024-02-14 13:31:04-Selecting the Firewall address for 10.10.168.10
+2024-02-14 13:31:04-Editing Policy ID number 126
+2024-02-14 13:31:11-Adding Rule Name Allow Web
+2024-02-14 13:31:11-Firewall Source Interface Selecting port4
+2024-02-14 13:31:11-Firewall Destination Interface port1
+2024-02-14 13:31:15-accept Firewall Rule
+2024-02-14 13:31:21-Enabling firewall Service HTTP
+2024-02-14 13:41:22-User admin logged in
+2024-02-14 13:41:25-First Node b
+2024-02-14 13:41:25-Second Node a
+2024-02-14 13:41:25-Selecting the Firewall address for 10.10.168.10
+2024-02-14 13:41:25-Selecting the Firewall address for 192.168.100.10
+2024-02-14 13:41:25-Editing Policy ID number 127
+2024-02-14 13:41:31-Adding Rule Name ALL Allow
+2024-02-14 13:41:31-Firewall Source Interface Selecting port4
+2024-02-14 13:41:31-Firewall Destination Interface port1
+2024-02-14 13:41:32-accept Firewall Rule
+2024-02-14 13:41:35-Enabling firewall Service ALL
+2024-02-14 13:41:46-User admin logged in
+2024-02-14 13:41:59-First Node a
+2024-02-14 13:42:00-Second Node b
+2024-02-14 13:42:00-Selecting the Firewall address for 192.168.100.10
+2024-02-14 13:42:00-Selecting the Firewall address for 10.10.168.10
+2024-02-14 13:42:00-Editing Policy ID number 128
+2024-02-14 13:42:05-Adding Rule Name ALL Allow
+2024-02-14 13:42:05-Firewall Source Interface Selecting port4
+2024-02-14 13:42:05-Firewall Destination Interface port1
+2024-02-14 13:42:06-accept Firewall Rule
+2024-02-14 13:42:08-Enabling firewall Service ALL
+2024-02-14 13:52:32-User admin logged in
+2024-02-14 13:52:43-First Node a
+2024-02-14 13:52:44-Second Node b
+2024-02-14 13:52:44-Selecting the Firewall address for 192.168.100.10
+2024-02-14 13:52:44-Selecting the Firewall address for 10.10.168.10
+2024-02-14 13:52:44-Editing Policy ID number 129
+2024-02-14 13:52:49-Adding Rule Name Allow SSH
+2024-02-14 13:52:49-Firewall Source Interface Selecting port4
+2024-02-14 13:52:49-Firewall Destination Interface port1
+2024-02-14 13:52:50-accept Firewall Rule
+2024-02-14 13:52:54-Enabling firewall Service SSH
+2024-02-14 13:53:52-User admin logged in
+2024-02-14 13:53:56-First Node a
+2024-02-14 13:53:57-Second Node b
+2024-02-14 13:53:57-Selecting the Firewall address for 192.168.100.10
+2024-02-14 13:53:57-Selecting the Firewall address for 10.10.168.10
+2024-02-14 13:53:57-Editing Policy ID number 130
+2024-02-14 13:54:02-Adding Rule Name Block SSH
+2024-02-14 13:54:02-Firewall Source Interface Selecting port4
+2024-02-14 13:54:02-Firewall Destination Interface port1
+2024-02-14 13:54:05-deny Firewall Rule
+2024-02-14 13:54:13-Enabling firewall Service SSH

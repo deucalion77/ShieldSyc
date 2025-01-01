@@ -1,0 +1,39 @@
+---
+- hosts: fortigates
+  collections:
+    - fortinet.fortios
+  connection: httpapi
+  vars:
+    vdom: "root"
+    ansible_httpapi_use_ssl: no
+    ansible_httpapi_validate_certs: no
+    ansible_httpapi_port: 80
+    new_policy_id: "{{ lookup('env', 'new_policy_id') | default(4) | int }}"
+    new_policy_name: "{{ lookup('env', 'new_policy_name') | default('Example Rule A1') }}"
+    new_src_interface: "{{ lookup('env', 'new_src_interface') | default('port1') }}"
+    new_dst_interface: "{{ lookup('env', 'new_dst_interface') | default('port1') }}"
+    new_action: "{{ lookup('env', 'new_action') | default('accept') }}"
+    new_src_address: "{{ lookup('env', 'new_src_address') | default('all') }}"
+    new_dst_address: "{{ lookup('env', 'new_dst_address') | default('all') }}"
+    new_schedule: "always" # Schedule for Always by default
+    new_service: "{{ lookup('env', 'new_service') | default('ALL') }}"
+  tasks:
+    - name: Configure firewall policy.
+      fortios_firewall_policy:
+        state: present
+        firewall_policy:
+          policyid: "{{ new_policy_id }}"
+          name: "{{ new_policy_name }}"
+          srcintf:
+            - name: "{{ new_src_interface }}"
+          dstintf:
+            - name: "{{ new_dst_interface }}"
+          action: "{{ new_action }}"
+          srcaddr:
+            - name: "{{ new_src_address }}"
+          dstaddr:
+            - name: "{{ new_dst_address }}"
+          schedule: "{{ new_schedule }}"
+          service:
+            - name: "{{ new_service }}"
+
